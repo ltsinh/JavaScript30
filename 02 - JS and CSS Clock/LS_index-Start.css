@@ -1,0 +1,85 @@
+body {
+  background: url("jakob-owens-225914.jpg");
+  background-size: 200%;
+  color: #black;
+  font-family: "Lucida Sans Typewriter", sans-serif;
+}
+h2 {
+  text-align: center;
+}
+#clock {
+  margin: auto;
+  background: url("ios_clock.svg") no-repeat;
+  border-radius: 25px;
+  border-top-left-radius:10em;
+  border-top-right-radius:10em;
+  border-bottom-right-radius:10em;
+  border-bottom-left-radius:10em;
+  background-size: auto;
+  width: 30em;
+  height: 30em;
+  position: relative;
+}
+
+
+#center-cover {
+  background: black;
+  position: absolute;
+  z-index: 10;
+  z-index: 10;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.hand {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  display: none;
+  transform-origin: 100%;
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+#second-hand {
+  background: red;
+  height: 2px;
+  width: 40%;
+}
+#minute-hand {
+  background: black;
+  height: 5px;
+  width: 30%;
+  border-radius: 8px;
+}
+#hour-hand {
+  background: black;
+  height: 8px;
+  width: 25%;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  margin: 2em 0;
+}
+
+footer p {
+  line-height: 1.5em;
+  padding-left: 2em;
+  margin: 0;
+}
+
+footer p a {
+  color: black;
+}
+footer p a:hover,
+footer p a:focus {
+  color: #68228B;
+}
